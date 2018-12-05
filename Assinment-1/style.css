@@ -1,0 +1,22 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.flex-row-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.nev-menu {
+    background-color: #F9FAFA;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.nev-item {
+	
+}
+
