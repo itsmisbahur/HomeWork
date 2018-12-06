@@ -1,0 +1,22 @@
+@font-face {
+	font-family: Lobster;
+	src: url(Lobster-Regular.ttf);
+}
+body {
+	font-family: Lobster;
+}
+table {
+	border-collapse: collapse;
+}
+td, th {
+	border: 1px solid black;
+	padding: 10px;
+}
+th {
+	background-color: #FF7F00;
+	color: #00C4FF;
+}
+td {
+	background-color: #0038B2;
+	color: #FFBF2A;
+}
