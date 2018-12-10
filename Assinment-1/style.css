@@ -1,22 +1,120 @@
-.container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+@font-face {
+  font-family: 'Helvetica';
+  src: url('assast/font/Helvetica-Bold.ttf') format('ttf');
+
 }
-.flex-row-container {
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+a {
+	color: #2D2E2E;
+}
+a:link {
+	color: #2D2E2E;
+}
+a:hover {
+	color: #2FA943;
+	text-decoration: none;
+}
+a:active {
+	color: #2FA943; 	
+	text-decoration: none;		
+}
+#header {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	background-color: #F1FCFC;
+}
+.main-logo {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	justify-content: left;
 }
-
-.nev-menu {
-    background-color: #F9FAFA;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 14px;
+.main-logo img {
+	width: 161px;
+	height: 46px;
 }
-
-.nev-item {
-	
+.nav-menu {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
-
+.nav-item {
+	margin: 5px;
+	font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+.userbox {
+	padding: 0 0 0 64px;
+}
+.login-icon {
+	background-color: #2FA943;
+	border-radius: 50%;
+	border: 0;
+}
+.home-block {
+	background-color: #ECFBFB;
+	background-image: url(assast/img/bg-img.png);
+	min-width: 100%;
+	background-repeat: repeat-x;
+    background-position: 9% 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.center-block {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+	text-transform: uppercase;
+	color: #131414;
+	font-size: 45px;
+	letter-spacing: 2.2px;
+	padding-bottom: 5px;
+}
+.title-block {
+	display: block;
+	margin: 0 auto 40px;
+}
+.sub-title {
+	display: block;
+	border-top: 1px solid #B6BFBF;
+	border-bottom: 1px solid #B6BFBF;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: 100;
+	color: #52595f;
+	letter-spacing: 2.2px;
+}
+.top-right {
+	position: relative;
+	top: -28px;
+	right: -5px;
+	float: right;
+}
+.bottom-left {
+	position: relative;
+	bottom: -36px;
+	left: -5px;
+	float: left;
+}
+.sub-title-img {
+	margin: 0 auto 32px;
+}
+.home-block .title-button {
+	color: #fff !important;
+	padding: 15px 20px;
+	border-radius: 15px;
+	background-color: #2FA943;
+	line-height: 1.5;
+	letter-spacing: 1.1px;
+}
+.title-button:hover	 {
+	background-color: #248133;
+}
+.title-button:active {
+	background-color: #1C6528;
+}
