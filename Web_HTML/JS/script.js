@@ -1,25 +1,27 @@
 
-// var menu = [];
-// menu = {'Pizza': 200,'Burger': 150};
-// console.log (menu)
+var food = ['Pizza', 'Burger', 'Mengo', 'Grill', 'Icecream', 'Tea','Orenge', 'Fineapple' ];
 
-// var apple = 20;
-// mengo = 20;
-// fineapple = 34;
-// orenge = 23;
+var menu = [];
+menu = {'Pizza': 200,'Burger': 150};
+console.log (menu)
 
-// var total = apple + mengo + fineapple + orenge;
-// var savemoney = 50;
+var apple = 20;
+mengo = 20;
+fineapple = 34;
+orenge = 23;
 
-// console.log ('Total Price: '+total);
-// if(total <= savemoney || apple <= 15){
-// 	console.log ('You can buy');
-// }else if(orenge <= savemoney){
-// 	console.log ('You can buy orenge');
-// }
-// else{
-// 	console.log ('You can not buy');
-// }
+var total = apple + mengo + fineapple + orenge;
+var savemoney = 50;
+
+console.log ('Total Price: '+total);
+if(total <= savemoney || apple <= 15){
+	console.log ('You can buy');
+}else if(orenge <= savemoney){
+	console.log ('You can buy orenge');
+}
+else{
+	console.log ('You can not buy');
+}
 
 var sb1 = 13;
 sb2 = 23;
@@ -41,4 +43,23 @@ if (total >= 80) {
 	console.log ('C')
 }else {
 	console.log ('F')
+}
+
+// While Loop
+var number = 0;
+var loop_string = '';
+
+while (number <= 10){
+	loop_string = loop_string + 'A';
+	console.log (loop_string);
+	number++;
+}
+
+var i = 0;
+
+console.log (food.length);
+
+while (i < food.length) {
+	console.log (food[i]);
+	i++;
 }
